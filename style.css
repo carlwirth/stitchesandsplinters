@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine&display=swap');
+@font-face {
+    font-family: woodbadge;
+    src: url("media/fonts/Woodbadge.ttf");
+}
+
+.homepage {
+    margin: 0;
+}
+
+.headerdiv {
+    background-image: linear-gradient(#5477b7 25%, #7face3 75%, #86b4e8 100%);
+    width: 100%;
+    height: 240px;
+}
+
+.headerbg {
+    background-color: transparent;
+    background-size: 12%;
+    background-position: left;
+    background-position-x: 2%;
+    background-repeat: no-repeat;
+    width: inherit;
+    height: inherit;
+}
+
+.headerbg1 {
+    background-color: transparent;
+    background-size: 12%;
+    background-position: right;
+    background-position-x: 98%;
+    background-repeat: no-repeat;
+    width: inherit;
+    height: inherit;
+}
+
+.headertext {
+    position: relative;
+    width: inherit;
+    height: inherit;
+    /* font-size: 15vw;           */
+    font-size: 25vw;
+    /* padding-bottom: 35px; */
+}
+
+.headertext p {
+    bottom: 0;
+    /* font-size: 85px; */
+    /* font-size: inherit; */
+    /* font-size: 15vw; */
+    color: #fff;
+    position: absolute;
+    text-align: center;
+    font-family: "Tangerine";
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.navibar {
+    display: flex;
+    margin: auto;
+    border-radius: 5px;
+    /* border: 8px solid purple; */
+    width: 97vw;
+    height: 30px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 2px;
+    z-index: 3;
+}
+
+.navibar a {
+    background-color: #f0fff0;
+    border-right: solid purple 4px;
+    display: block;
+    float: left;
+    font-size: 24px;
+    width: 19.9%;
+    height: inherit;
+    font-family: "Raleway";
+    text-align: center;
+    text-decoration: none;
+    padding-top: 2px;
+}
+
+.mainblock {
+    background-color: white;
+    margin: 0 auto;
+    width: 97%;
+    font-size: 60px;
+    border: 10px;
+}
+
+
+/* css for events Page */
+
+.events {
+    font-size: 35px;
+    text-align: center;
+}
+
+
+/* here is the CSS for the "contact-us" links found in various text. */
+
+.contact-us {
+    color: ghostwhite;
+}
+
+.contact-us:hover {
+    color: sienna;
+    transition: 0.3s;
+}
+
+
+/* mario-links are for "Oak & Iron" */
+
+.mario-links {
+    /* color: sienna; */
+    color: #F96;
+}
+
+.mario-links:hover {
+    color: #5b845c;
+    /* color: sienna; */
+    transition: 0.3s;
+}
+
+
+/* linus-links are for Project Linus */
+
+.linus-links {
+    color: limegreen;
+}
+
+.linus-links:hover {
+    color: springgreen;
+    transition: 0.3s;
+}
+
+
+/* This is for the dancing four-eyed baby chick.  */
+
+.column-c-four-eyes {
+    display: block;
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column-c-four-eyes:hover {
+    transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+}
+
+.social-media-links {
+    vertical-align: middle;
+    width: 48px;
+    color: #9AFE2E;
+}
+
+
+/* Here is the CSS for all page footers. */
+
+.footer {
+    background-image: linear-gradient(#5477b7 40%, #7face3 80%, #86b4e8 100%);
+    /* background-color: #5477b7; */
+    position: absolute;
+    width: 100%;
+}
+
+.footer a {
+    margin: 10 8px;
+}
+
+.footer p {
+    font-size: 20px;
+    color: #fff;
+    margin: 12px;
+}
+
+
+/* This area is for the CSS needed for the Home Page's photo Carrossel. */
+
+
+/* This area is for the About Page CSS*/
+
+
+/* Begin style for About Posts */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.color {
+    padding: 20px;
+    background-color: beige;
+}
+
+.about-box {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px auto;
+    width: 60%;
+}
+
+.about-box img {
+    position: relative;
+    width: 300px;
+    border: 2px solid darkblue;
+}
+
+.about-box:nth-child(2n-1) img {
+    left: 100px;
+    margin-left: -75px;
+    margin-top: 0px;
+    float: right;
+}
+
+.about-box:nth-child(2n) img {
+    float: left;
+    left: -100px;
+    margin-right: -75px;
+}
+
+
+/* This was an earlier attempt. (ABOUT page) It did not create the look desired. */
+
+
+/* .sectionblock {
+    display: flex;
+}
+
+.image-left-text-right-container {
+    width: 100%;
+    height: 480px;
+    display: flex;
+}
+
+.solid-fill-box-right {
+    width: 800px;
+    height: 480px;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+} */
+
+
+/* This area is for */
+
+
+/* (hopefully)  */
+
+
+/* making this site work on mobile devices without ugliness */
+
+
+/* ....GGRRRRrrrrrr..!!! */
+
+@media screen (max-width:481px) {
+    /* width: 100%; */
+    body {
+        /* background-color: red; */
+        width: 100%;
+    }
+}
+
+@media (max-width: 481px) {
+    body {
+        background-color: pink;
+    }
+}
+
+@media (max-width: 481px) {
+    .headerdiv {
+        /* height: 240px; */
+        height: 16vh;
+    }
+}
+
+
+/* At the moment, this is the end of the CSS page. Pheww....  */
