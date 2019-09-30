@@ -1,0 +1,74 @@
+/* Here is the CSS for the PHOTOS page. */
+
+
+/* photos to the right */
+
+.photos-div-r {
+    width: 820px;
+    /* height: 560px; */
+    position: relative;
+    margin: 0 auto;
+}
+
+.photos-text-r {
+    background-color: #335875;
+    width: 760px;
+    height: inherit;
+    z-index: 2;
+    color: #fff;
+    font-size: 22px;
+    /* margin: 3px; */
+    /* margin-left: 6px; */
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.photos-image-r {
+    width: 425px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+    float: right;
+    margin: 30px;
+}
+
+.please-work-r {
+    width: inherit;
+    z-index: 2;
+}
+
+
+/* photos to the left */
+
+.photos-div-l {
+    width: 820px;
+    /* height: 560px; */
+    position: relative;
+    margin: 0 auto;
+}
+
+.photos-text-l {
+    background-color: #335875;
+    width: 760px;
+    height: inherit;
+    z-index: 2;
+    color: #fff;
+    font-size: 22px;
+    padding-right: 12px;
+    padding-left: 12px;
+}
+
+.photos-image-l {
+    width: 425px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+    float: left;
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
+.please-work-l {
+    width: inherit;
+    z-index: 2;
+}
